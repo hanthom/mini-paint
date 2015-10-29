@@ -1,6 +1,6 @@
 $(document).ready(function() {
  
-	$('.box').click(function() {
+	$('.box').on('click', function() {
 		$(this).addClass(color);
 	});
 
